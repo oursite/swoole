@@ -1,0 +1,28 @@
+{
+    "name": "cheyou/service",
+    "description": "273 cheyou network",
+    "license": "",
+    "authors": [
+        {
+            "name": "dutao",
+            "email": "dutao@273.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "cheyou/v4":"dev-master",
+        "monolog/monolog":"1.11.*",
+        "illuminate/database":"4.2.*",
+        "vlucas/valitron":"1.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Core" : "",
+            "Lib" : "",
+            "service" : "../../"
+        }
+    },
+    "repositories": [
+         {"type": "git", "url": "git@git.273.cn:v4/cheyou.git"}
+    ]
+}
